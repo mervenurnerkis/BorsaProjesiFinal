@@ -16,7 +16,7 @@ namespace BorsaProjesi
     {
         public static List<Kullanici> kullanicilar = new List<Kullanici>();
 
-        
+        //kullanıcı adı return edilir.
         public static Kullanici kullaniciAra(string kullaniciadi)
         {
             foreach (Kullanici kullanici in kullanicilar)
@@ -136,7 +136,6 @@ namespace BorsaProjesi
             }
 
         }
-
         public static Mahsul UcuzUrunBul(Talepler talepler)
         {
             Mahsul UcuzUrun = null;

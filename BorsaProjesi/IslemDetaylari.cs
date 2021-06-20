@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BorsaProjesi
 {
+    //işlem detaylarına ilişkin değişkenler tanımlanmıştır.
     class IslemDetaylari
     {
         private DateTime tarihSaat;

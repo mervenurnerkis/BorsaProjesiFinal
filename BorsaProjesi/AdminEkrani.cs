@@ -8,7 +8,7 @@ namespace BorsaProjesi
 {
     class AdminEkrani : Kullanici
     {
-        
+        //Admin ekranında mahsuller listelenir.
         public static List<Mahsul> OnaylanacakMahsuller()
         {
             List<Mahsul> liste = new List<Mahsul>();

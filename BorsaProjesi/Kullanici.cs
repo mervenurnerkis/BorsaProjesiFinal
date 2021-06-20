@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BorsaProjesi
 {
+    //kullanıcı sınıfında kullanıcıya ait değişkenler tanımlanmıştır.
     public class Kullanici
     {
         private string ad;
