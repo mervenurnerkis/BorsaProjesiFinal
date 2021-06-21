@@ -28,6 +28,7 @@ namespace BorsaProjesi
             {
                 MessageBox.Show("Kaydınız başarısız sonuçlanmıştır. Lütfen tekrar deneyiniz!");
             }
+            
         }
 
         //login ekranında kullanıcı ya da admin giriş yapar.
@@ -48,13 +49,9 @@ namespace BorsaProjesi
                 {
                     MessageBox.Show("Kullanıcı adınız veya şifreniz hatalı. Lütfen tekrar deneyiniz!");
                 }
+                
             }
         }
 
-       
-        private void pictureBoxExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

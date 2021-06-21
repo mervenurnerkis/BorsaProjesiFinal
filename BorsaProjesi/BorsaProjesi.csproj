@@ -84,6 +84,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Talepler.cs" />
     <Compile Include="GirilenVeriler.cs" />
+    <Compile Include="YazilimYapimiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YazilimYapimiDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +132,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="YazilimYapimiDataSet.xsc">
+      <DependentUpon>YazilimYapimiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YazilimYapimiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YazilimYapimiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YazilimYapimiDataSet.xss">
+      <DependentUpon>YazilimYapimiDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

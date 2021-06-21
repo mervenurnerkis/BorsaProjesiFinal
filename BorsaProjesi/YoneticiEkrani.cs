@@ -17,6 +17,17 @@ namespace BorsaProjesi
             InitializeComponent();
         }
         //İşlemler ekranı açılır.
+       
+        
+        private void listKullanicilar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TalepleriGuncelle();
+        }
+        private void YoneticiEkrani_Load(object sender, EventArgs e)
+        {
+            PanelGuncelle();
+            GirilenVeriler.TalepKontrol();
+        }
         private void btnIslemler_Click(object sender, EventArgs e)
         {
             new YapilanIslemler().ShowDialog();
@@ -27,15 +38,6 @@ namespace BorsaProjesi
             {
                 listKullanicilar.Items.Add(kullanici.KullaniciAdi + " - " + kullanici.Ad + " " + kullanici.Soyad + " Bakiye: " + kullanici.Bakiye);
             }
-        }
-        private void listKullanicilar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            TalepleriGuncelle();
-        }
-        private void YoneticiEkrani_Load(object sender, EventArgs e)
-        {
-            PanelGuncelle();
-            GirilenVeriler.TalepKontrol();
         }
 
         //Kullanıcının üstüne tıklayarak talep onaylanır.

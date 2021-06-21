@@ -206,8 +206,8 @@
             this.cmbBxBakiye.ForeColor = System.Drawing.Color.Maroon;
             this.cmbBxBakiye.FormattingEnabled = true;
             this.cmbBxBakiye.Items.AddRange(new object[] {
-            "Dolar",
             "Euro",
+            "Dolar",
             "Sterlin",
             "Türk Lirası"});
             this.cmbBxBakiye.Location = new System.Drawing.Point(199, 20);
@@ -237,9 +237,9 @@
             this.label4.Location = new System.Drawing.Point(19, 22);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 20);
+            this.label4.Size = new System.Drawing.Size(49, 20);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Bakiye:";
+            this.label4.Text = "Para:";
             // 
             // txtBakiye
             // 
@@ -256,19 +256,19 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(24, 572);
+            this.label5.Location = new System.Drawing.Point(31, 558);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 20);
+            this.label5.Size = new System.Drawing.Size(68, 20);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Bakiyem: ";
+            this.label5.Text = "Param: ";
             // 
             // lblbakiye
             // 
             this.lblbakiye.AutoSize = true;
             this.lblbakiye.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblbakiye.ForeColor = System.Drawing.Color.Maroon;
-            this.lblbakiye.Location = new System.Drawing.Point(102, 572);
+            this.lblbakiye.Location = new System.Drawing.Point(107, 558);
             this.lblbakiye.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbakiye.Name = "lblbakiye";
             this.lblbakiye.Size = new System.Drawing.Size(38, 20);
@@ -280,12 +280,12 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.Crimson;
-            this.label6.Location = new System.Drawing.Point(503, 69);
+            this.label6.Location = new System.Drawing.Point(548, 52);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(275, 25);
+            this.label6.Size = new System.Drawing.Size(126, 25);
             this.label6.TabIndex = 5;
-            this.label6.Text = "SAHİP OLDUĞUM ÜRÜNLER";
+            this.label6.Text = "ÜRÜNLERİM";
             // 
             // listUrun
             // 
@@ -328,7 +328,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.ForeColor = System.Drawing.Color.Maroon;
-            this.label8.Location = new System.Drawing.Point(174, 572);
+            this.label8.Location = new System.Drawing.Point(29, 591);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(126, 20);
@@ -340,7 +340,7 @@
             this.lblbakiyeonay.AutoSize = true;
             this.lblbakiyeonay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblbakiyeonay.ForeColor = System.Drawing.Color.Maroon;
-            this.lblbakiyeonay.Location = new System.Drawing.Point(308, 572);
+            this.lblbakiyeonay.Location = new System.Drawing.Point(163, 591);
             this.lblbakiyeonay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbakiyeonay.Name = "lblbakiyeonay";
             this.lblbakiyeonay.Size = new System.Drawing.Size(38, 20);
@@ -351,10 +351,10 @@
             // 
             this.btnRapor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnRapor.ForeColor = System.Drawing.Color.Maroon;
-            this.btnRapor.Location = new System.Drawing.Point(44, 84);
+            this.btnRapor.Location = new System.Drawing.Point(50, 156);
             this.btnRapor.Margin = new System.Windows.Forms.Padding(4);
             this.btnRapor.Name = "btnRapor";
-            this.btnRapor.Size = new System.Drawing.Size(349, 28);
+            this.btnRapor.Size = new System.Drawing.Size(170, 28);
             this.btnRapor.TabIndex = 3;
             this.btnRapor.Text = "Rapor Al";
             this.btnRapor.UseVisualStyleBackColor = true;
@@ -363,19 +363,19 @@
             // dateTimeBaslangic
             // 
             this.dateTimeBaslangic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimeBaslangic.Location = new System.Drawing.Point(44, 49);
+            this.dateTimeBaslangic.Location = new System.Drawing.Point(7, 46);
             this.dateTimeBaslangic.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimeBaslangic.Name = "dateTimeBaslangic";
-            this.dateTimeBaslangic.Size = new System.Drawing.Size(171, 27);
+            this.dateTimeBaslangic.Size = new System.Drawing.Size(239, 27);
             this.dateTimeBaslangic.TabIndex = 7;
             // 
             // dateTimeBitis
             // 
             this.dateTimeBitis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimeBitis.Location = new System.Drawing.Point(223, 49);
+            this.dateTimeBitis.Location = new System.Drawing.Point(7, 114);
             this.dateTimeBitis.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimeBitis.Name = "dateTimeBitis";
-            this.dateTimeBitis.Size = new System.Drawing.Size(170, 27);
+            this.dateTimeBitis.Size = new System.Drawing.Size(239, 27);
             this.dateTimeBitis.TabIndex = 7;
             // 
             // label9
@@ -383,7 +383,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.ForeColor = System.Drawing.Color.Maroon;
-            this.label9.Location = new System.Drawing.Point(40, 25);
+            this.label9.Location = new System.Drawing.Point(47, 22);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(135, 20);
@@ -395,7 +395,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.ForeColor = System.Drawing.Color.Maroon;
-            this.label10.Location = new System.Drawing.Point(256, 25);
+            this.label10.Location = new System.Drawing.Point(47, 90);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(90, 20);
@@ -409,9 +409,9 @@
             this.groupBox3.Controls.Add(this.btnRapor);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.dateTimeBaslangic);
-            this.groupBox3.Location = new System.Drawing.Point(397, 442);
+            this.groupBox3.Location = new System.Drawing.Point(490, 408);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(442, 150);
+            this.groupBox3.Size = new System.Drawing.Size(253, 203);
             this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
             // 
@@ -433,9 +433,9 @@
             this.label12.ForeColor = System.Drawing.Color.Crimson;
             this.label12.Location = new System.Drawing.Point(109, 425);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(140, 25);
+            this.label12.Size = new System.Drawing.Size(122, 25);
             this.label12.TabIndex = 11;
-            this.label12.Text = "BAKİYE EKLE";
+            this.label12.Text = "PARA EKLE";
             // 
             // pictureBox1
             // 

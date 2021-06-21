@@ -90,7 +90,7 @@ namespace BorsaProjesi
                 }
                 if (baslangicBakiye != alici.Bakiye)
                 {
-                    islem = new IslemDetaylari(alici.Ad + " " + gecicimiktar + " kilo " + urun.Ad + " almak ister ise " + urun.Fiyat + " tl'den alım işlemi gerçekleşti",
+                    islem = new IslemDetaylari(alici.Ad + " " + gecicimiktar + " kilo " + urun.Ad + " alım isteği için birim başına " + urun.Fiyat + " tl ",
                     alici.Ad + " " + urun.Sahibi.Ad + "'in hesabına " + toplamTutar + " TL gönderdi.", alici.Ad + " " + alici.Bakiye + " tl parası kaldı",
                     urun.Fiyat + " tl");
                     GirilenVeriler.Islemler.Add(islem);

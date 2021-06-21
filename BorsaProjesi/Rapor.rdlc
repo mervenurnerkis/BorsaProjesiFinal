@@ -6,19 +6,19 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.3in</Width>
+              <Width>1.33167in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.3in</Width>
+              <Width>1.08166in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.3in</Width>
+              <Width>1.33167in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.3in</Width>
+              <Width>1.33167in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.3in</Width>
+              <Width>1.33167in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -34,7 +34,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Alicikalan</Value>
+                              <Value>BirimFiyat</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -75,7 +75,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Birimfiyat</Value>
+                              <Value>KalanPara</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -440,7 +440,7 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Height>0.5in</Height>
-        <Width>6.5in</Width>
+        <Width>6.40833in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -451,7 +451,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>6.59166in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

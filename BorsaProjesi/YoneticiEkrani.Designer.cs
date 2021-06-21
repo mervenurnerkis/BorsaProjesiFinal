@@ -114,9 +114,9 @@
             this.labeluruntalepleri.Location = new System.Drawing.Point(237, 342);
             this.labeluruntalepleri.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labeluruntalepleri.Name = "labeluruntalepleri";
-            this.labeluruntalepleri.Size = new System.Drawing.Size(188, 29);
+            this.labeluruntalepleri.Size = new System.Drawing.Size(181, 29);
             this.labeluruntalepleri.TabIndex = 2;
-            this.labeluruntalepleri.Text = "Ürün Talepleri:";
+            this.labeluruntalepleri.Text = "Ürün Talepleri";
             // 
             // btnTalep
             // 
@@ -127,7 +127,7 @@
             this.btnTalep.Name = "btnTalep";
             this.btnTalep.Size = new System.Drawing.Size(401, 39);
             this.btnTalep.TabIndex = 1;
-            this.btnTalep.Text = "Tüm Talepleri Onayla";
+            this.btnTalep.Text = "Talepleri Onayla";
             this.btnTalep.UseVisualStyleBackColor = true;
             this.btnTalep.Click += new System.EventHandler(this.btnTalep_Click);
             // 
@@ -152,7 +152,7 @@
             this.btnIslemler.Name = "btnIslemler";
             this.btnIslemler.Size = new System.Drawing.Size(192, 41);
             this.btnIslemler.TabIndex = 1;
-            this.btnIslemler.Text = "İşlemler";
+            this.btnIslemler.Text = "İşlem Detayları";
             this.btnIslemler.UseVisualStyleBackColor = true;
             this.btnIslemler.Click += new System.EventHandler(this.btnIslemler_Click);
             // 

@@ -161,9 +161,26 @@ namespace BorsaProjesi
             }
             return UcuzUrun;
         }
-        
-        
-       
+
+        //Bu fonksiyonun içinde Pdf formatında rapor alınabiliyor.
+        public static void RaporAl(DateTime baslangic, DateTime bitis)
+        {
+            ReportViewer reportViewer = new ReportViewer();
+            ReportDataSource rds = new ReportDataSource("DataSet1", Islemler.Where(x => x.TarihSaat >= baslangic.Date && x.TarihSaat.Date <= bitis.Date).ToList());
+            reportViewer.LocalReport.DataSources.Add(rds);
+            reportViewer.LocalReport.ReportPath = (Application.StartupPath + "\\Rapor.rdlc");
+            reportViewer.LocalReport.DataSources.Clear();
+            reportViewer.LocalReport.DataSources.Add(rds);
+            reportViewer.LocalReport.Refresh();
+            reportViewer.RefreshReport();
+            byte[] Bytes = reportViewer.LocalReport.Render(format: "PDF", deviceInfo: "");
+            using (FileStream stream = new FileStream("rapor.pdf", FileMode.Create))
+            {
+                stream.Write(Bytes, 0, Bytes.Length);
+            }
+            Process.Start("rapor.pdf");
+        }
+
         //Bu fonksiyonun içinde döviz kuru üzerinden tlye çevrilerek sisteme aktarılacak. veriler anlık olarak siteden çekiliyor.
         public static double DovizDonustur(double miktar, string doviz)
         {
@@ -204,24 +221,7 @@ namespace BorsaProjesi
             return 0;
         }
 
-        //Bu fonksiyonun içinde Pdf formatında rapor alınabiliyor.
-        public static void RaporAl(DateTime baslangic,DateTime bitis)
-        {
-            ReportViewer reportViewer = new ReportViewer();
-            ReportDataSource rds = new ReportDataSource("DataSet1", Islemler.Where(x=>x.TarihSaat>=baslangic.Date && x.TarihSaat.Date<=bitis.Date).ToList());
-            reportViewer.LocalReport.DataSources.Add(rds);
-            reportViewer.LocalReport.ReportPath = (Application.StartupPath + "\\Rapor.rdlc");
-            reportViewer.LocalReport.DataSources.Clear();
-            reportViewer.LocalReport.DataSources.Add(rds);
-            reportViewer.LocalReport.Refresh();
-            reportViewer.RefreshReport();
-            byte[] Bytes = reportViewer.LocalReport.Render(format: "PDF", deviceInfo: "");
-            using (FileStream stream = new FileStream("rapor.pdf", FileMode.Create))
-            {
-                stream.Write(Bytes, 0, Bytes.Length);
-            }
-            Process.Start("rapor.pdf");
-        }
+        
 
     }
 }
